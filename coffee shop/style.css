@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+header {
+    background-color: #1E272E;
+    color: #f21c1c;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header h1 img{
+    font-size: 36px;
+    margin: 0;
+    width: 45px;
+    border-radius: 15px;
+    
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#banner {
+    background-image: url('coffee-banner.webp');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 100px 20px;
+}
+
+#banner h2 {
+    font-size: 48px;
+    margin: 0;
+    color: rgb(179, 249, 17);
+}
+
+#banner p {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+#banner a {
+    display: inline-block;
+    background-color: #FBC531;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#banner a:hover {
+    background-color: #E1B12C;
+}
+
+#menu {
+    background-color: #F5F5F5;
+    padding: 100px 20px;
+    cursor:pointer;
+    
+}
+
+menu h2 img{
+    font-size: 36px;
+    text-align: center;
+    width: 10%;
+    height: 10%;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#menu li {
+    width: calc(50% - 20px);
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    border-radius: 5px;
+}
+
+#menu li:nth-child(even) {
+    margin-left: 40px;
+}
+
+menu h3 img{
+    font-size: 24px;
+    margin: 0;
+    height: 10vh;
+}
+
+#menu p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+#menu span {
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+#about {
+    background-color: #fff;
+    padding: 100px 20px;
+    cursor:pointer;
+}
+
+#about h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+#about a {
+    display: block;
+    margin-top: 20px;
+    background-color: #FBC531;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#about a:hover {
+    background-color: #E1B12C;
+}
+
+#contact {
+    background-color: #1E272E;
+    color: #fff;
+    padding: 100px 20px;
+    cursor:pointer;
+}
+#footer{
+padding-top: 6vh;
+} 
